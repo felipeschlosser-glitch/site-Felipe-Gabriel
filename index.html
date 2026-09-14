@@ -4,164 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genética Nelore - Excelência na Pecuária</title>
-    <style>
-        /* Estilos Gerais */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #f4f6f8;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        /* Cabeçalho */
-        header {
-            background-color: #1b4332;
-            color: white;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h1 {
-            font-size: 1.5rem;
-            color: #2d6a4f;
-            background: #fff;
-            padding: 5px 12px;
-            border-radius: 5px;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-
-        nav ul li {
-            margin-left: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #52b788;
-        }
-
-        /* Hero / Banner */
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
-            height: 400px;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0 20px;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 600px;
-        }
-
-        /* Seções */
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #1b4332;
-        }
-
-        /* Grid de Cards */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: white;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .card h3 {
-            color: #2d6a4f;
-            margin-bottom: 10px;
-        }
-
-        /* Formulário */
-        .contact-form {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            max-width: 600px;
-            margin: 0 auto;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        .form-group input, .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        button {
-            background-color: #2d6a4f;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        button:hover {
-            background-color: #1b4332;
-        }
-
-        /* Rodapé */
-        footer {
-            background-color: #081c15;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -188,39 +31,54 @@
     <div class="container">
         
         <!-- Sobre a Raça -->
-        <section id="sobre" style="margin-bottom: 50px;">
+        <section id="sobre">
             <h2 class="section-title">Por que investir na Raça Nelore?</h2>
             <div class="grid">
                 <div class="card">
-                    <h3>Rusticidade</h3>
-                    <p>Alta adaptação ao clima tropical, tolerância ao calor e resistência natural a parasitas como carrapatos e moscas.</p>
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/8751462872654513659_1" alt="Touro Nelore no pasto">
+                    <div class="card-content">
+                        <h3>Rusticidade</h3>
+                        <p>Alta adaptação ao clima tropical, tolerância ao calor e resistência natural a parasitas no campo.</p>
+                    </div>
                 </div>
                 <div class="card">
-                    <h3>Eficiência Reprodutiva</h3>
-                    <p>Fêmeas com excelente habilidade materna, facilidade no parto e longevidade reprodutiva no campo.</p>
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/8751462872654513659_2" alt="Matriz Nelore">
+                    <div class="card-content">
+                        <h3>Eficiência Reprodutiva</h3>
+                        <p>Fêmeas com excelente habilidade materna, facilidade no parto e grande longevidade reprodutiva.</p>
+                    </div>
                 </div>
                 <div class="card">
-                    <h3>Qualidade de Carcaça</h3>
-                    <p>Com o melhoramento genético moderno, a raça entrega animais com maior rendimento de carcaça, precocidade e acabamento de gordura.</p>
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/8751462872654513659_3" alt="Gado Nelore de qualidade">
+                    <div class="card-content">
+                        <h3>Qualidade de Carcaça</h3>
+                        <p>Com o melhoramento genético moderno, entrega maior rendimento de carcaça, precocidade e acabamento.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Genética e Destaques -->
-        <section id="genetica" style="margin-bottom: 50px;">
+        <section id="genetica">
             <h2 class="section-title">Pilares do Melhoramento Genético</h2>
             <div class="grid">
                 <div class="card">
-                    <h3>Avaliação por DEPs</h3>
-                    <p>Uso de Diferenças Esperadas na Progênie para selecionar características como Peso ao Nascer, Desmame, Sobreano e Precocidade Sexual.</p>
+                    <div class="card-content">
+                        <h3>Avaliação por DEPs</h3>
+                        <p>Uso de Diferenças Esperadas na Progênie para selecionar características como Peso ao Nascer, Desmame e Precocidade Sexual.</p>
+                    </div>
                 </div>
                 <div class="card">
-                    <h3>Genômica</h3>
-                    <p>Uso de marcadores moleculares para aumentar a acurácia das avaliações genéticas em animais jovens, reduzindo o intervalo de gerações.</p>
+                    <div class="card-content">
+                        <h3>Genômica</h3>
+                        <p>Marcadores moleculares para aumentar a acurácia das avaliações genéticas em animais jovens, reduzindo o intervalo de gerações.</p>
+                    </div>
                 </div>
                 <div class="card">
-                    <h3>Biotecnologias (FIV / IATF)</h3>
-                    <p>Multiplicação rápida da genética das melhores matrizes e touros provados através da Inseminação e Fertilização in Vitro.</p>
+                    <div class="card-content">
+                        <h3>Biotecnologias (FIV / IATF)</h3>
+                        <p>Multiplicação rápida da genética das melhores matrizes e touros provados através da Inseminação e Fertilização in Vitro.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -256,3 +114,198 @@
 
 </body>
 </html>
+2. style.css (Atualizado para ajustar a exibição das fotos)
+CSS
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #2b2d42;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1b4332;
+    color: #ffffff;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #e8f5e9;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #52b788;
+}
+
+/* Hero / Banner */
+.hero {
+    background: linear-gradient(rgba(15, 32, 25, 0.65), rgba(15, 32, 25, 0.65)), 
+                url(''
+) center/cover no-repeat;
+    height: 450px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 650px;
+    color: #d8f3dc;
+}
+
+/* Seções e Cards com Fotos */
+section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #1b4332;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    color: #1b4332;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+/* Formulário de Contato */
+.contact-form {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2b2d42;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #2d6a4f;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    background-color: #1b4332;
+}
+
+/* Rodapé */
+footer {
+    background-color: #081c15;
+    color: #b7e4c7;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+}
